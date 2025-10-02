@@ -1,0 +1,33 @@
+body{
+    background-color: #5348b6;
+}
+.wrapper{
+    margin: 0%;
+    padding: 0%;
+}    
+.about-wrapper{
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.profile-photo-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-position: center;
+    background-image: url(./assets/istockphoto-1201252148-612x612.jpg);
+    background-size: cover;
+    overflow: hidden;
+    border: 4px solid #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
